@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --nav-bg: #0082e6;
+  --col-bg:#414141;
+  --col-14:#141414;
+}
+body{
+  color: var(--col-14);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+/* estilizamos la nav */
+.menu {
+  background: var(--col-14);
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+/* estilizamos la nav-list y sus links */
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+.nav-list li a {
+  padding: 7px 13px;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-list li:hover {
+  border-radius: 10px;
+  background-color: rgb(32, 32, 32);
+  transition: 0.5s ease-in-out;
+}
+/* logo */
+.logo {
+  color: white;
+  font-size: 35px;
+  padding: 0 80px;
+  font-weight: bold;
+  transition: .3s ease-in-out;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+/* boton menu */
+.btn-menu {
+  margin-right: 30px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+/* funcion toggle */
+ul.toggle {
+  top: 65px;
+}
+/* sections */
+/* compania */
+.compania{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: var(--col-14);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/466/301/non_2x/light-blue-background-design-white-and-blue-background-design-clean-and-modern-design-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.compania h1{
+    font-weight: bold;
+}
+.compania img{
+    width: 300px;
+}
+/* info compania */
+.compania .info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+    align-items: center;
+}
+/* botones */
+.btns{
+    display: flex;
+    gap: 30px;
+}
+/* botones info */
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+/* btn dark */
+.btn-dark{
+    color: white;
+    background-color: rgb(35, 34, 34);
+    border: none;
+}
+.btn-dark:hover{
+    transition: .1s ease-in-out;
+    background-color:rgb(47, 47, 47);
+}
+/* btn light */
+.btn-light{
+    border: 2px solid rgb(35, 34, 34);
+}
+.btn-light:hover{
+    transition: .1s ease-in-out;
+    background-color: rgb(188, 188, 188);
+}
+/* section descripcion */
+.descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #141414;
+    height: 15vh;
+  }
+  .descripcion p{
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  /* section beneficios */
+.beneficios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  padding: 60px;
+  border-bottom: 1px solid var(--col-bg);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/176/927/original/blue-and-white-abstract-background-vector.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* article beneficios-list */
+.beneficios-list{
+  width: 90vw;
+  display: flex;
+  gap: 50px;
+}
+/* beneficios */
+.beneficio img{
+  width: 100px;
+}
+.beneficio{
+  border-radius: 15px;
+  padding: 30px 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+  transition: all .3s ease-in-out;
+  background-color: var(--col-14);
+  color: white;
+}
+.beneficio:hover{
+  transform: scale(1.1);
+}
+/* section nosotros */
+.nosotros{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-white-wave-background_41084-451.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+}
+.nosotros-list{
+  width: 90vw;
+  display: flex;
+  gap: 50px;
+  justify-content:center;
+}
+.nosotros-list img{
+  width: 100px;
+}
+/* estilos pasos */
+.pasos{
+  border-radius: 15px;
+  padding: 30px 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+  transition: 0.3s ease-in-out;
+  background-color: var(--col-14);
+  color: white;
+}
+.pasos:hover{
+  transform: scale(1.1);
+}
+/* Section clientes */
+/* section nosotros */
+.clientes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/466/306/non_2x/light-blue-background-design-white-and-blue-background-design-clean-and-modern-design-illustration-vector.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.clientes-list{
+  width: 90vw;
+  display: flex;
+  gap: 50px;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.clientes-list img{
+  width: 100px;
+}
+/* estilos cliente */
+.cliente{
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+  transition: 0.3s ease-in-out;
+  background-color: var(--col-14);
+  color: white;
+}
+.cliente:hover{
+  transform: scale(1.1);
+}
+/* footer */
+footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  background-color: #141414;
+}
+footer img{
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.direcciones{
+  display: flex;
+  gap: 40px;
+}
+.direcciones ul li{
+  list-style: disc;
+}
+.iconos{
+  display: flex;
+  margin-top: 20px;
+  gap: 60px;
+}
+.iconos img{
+  width: 40px;
+  cursor: pointer;
+}
+/* Media queries nav */
+@media screen and (max-width: 952px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+  .nav-list li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 858px) {
+  .menu {
+    height: 65px;
+  }
+  .btn-menu {
+    display: flex;
+  }
+  .nav-list {
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background-color: var(--col-bg);
+    top: -100vh;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    flex-direction: column;
+  }
+  .nav-list li {
+    margin: 30px 0 0 0;
+  }
+  .nav-list li:hover {
+    background: none;
+  }
+  .nav-list li a {
+    font-size: 20px;
+    color: white;
+  }
+  .nav-list li a:hover {
+    color: var(--nav-bg);
+  }
+  .logo {
+    font-size: 25px;
+    padding-left: 35px;
+  }
+  .beneficios-list{
+    flex-direction: column;
+  }
+  .nosotros-list{
+    flex-direction: column;
+    width: 80vw;
+  }
+  footer{
+    flex-direction: column;
+    text-align: center;
+  }
+  .direcciones ul li{
+    list-style: none;
+  }
+  .footer img{
+    margin: 10px;
+  }
+  
+}
+@media screen and (max-width: 858px) and (orientation: landscape) {
+  .nav-list li {
+    margin: 5px 0 0 0;
+  }
+  .nav-list {
+    overflow: scroll;
+    height: calc(100% - 65px);
+  }
+}
+/* media queries sections */
+@media screen and (max-width:575px) {
+    .compania{
+        flex-direction: column-reverse;
+    }
+   .compania img{
+    width: 100px;
+   }
+   .compania h1{
+    font-weight: normal;
+   }
+}
