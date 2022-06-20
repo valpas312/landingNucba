@@ -9,10 +9,10 @@
 }
 :root {
   --nav-bg: #0082e6;
-  --col-bg:#414141;
-  --col-14:#141414;
+  --col-bg: #414141;
+  --col-14: #141414;
 }
-body{
+body {
   color: var(--col-14);
   width: 100vw;
   height: 100vh;
@@ -51,9 +51,9 @@ body{
   font-size: 35px;
   padding: 0 80px;
   font-weight: bold;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.logo:hover{
+.logo:hover {
   transform: scale(1.1);
 }
 /* boton menu */
@@ -70,80 +70,80 @@ ul.toggle {
 }
 /* sections */
 /* compania */
-.compania{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    color: var(--col-14);
-    background-image: url("https://static.vecteezy.com/system/resources/previews/004/466/301/non_2x/light-blue-background-design-white-and-blue-background-design-clean-and-modern-design-illustration-vector.jpg");
-    background-repeat: no-repeat;
-    height: 60vh;
+.compania {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: var(--col-14);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/466/301/non_2x/light-blue-background-design-white-and-blue-background-design-clean-and-modern-design-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  height: 60vh;
 }
-.compania h1{
-    font-weight: bold;
+.compania h1 {
+  font-weight: bold;
 }
-.compania img{
-    width: 300px;
+.compania img {
+  width: 300px;
 }
 /* info compania */
-.compania .info{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 300px;
-    align-items: center;
+.compania .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 300px;
+  align-items: center;
 }
 /* botones */
-.btns{
-    display: flex;
-    gap: 30px;
+.btns {
+  display: flex;
+  gap: 30px;
 }
 /* botones info */
-.btn{
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 16px;
-    transition: 0.3s ease-in-out;
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
 }
-.btn:hover{
+.btn:hover {
   transform: scale(1.1);
 }
 /* btn dark */
-.btn-dark{
-    color: white;
-    background-color: rgb(35, 34, 34);
-    border: none;
+.btn-dark {
+  color: white;
+  background-color: rgb(35, 34, 34);
+  border: none;
 }
-.btn-dark:hover{
-    transition: .1s ease-in-out;
-    background-color:rgb(47, 47, 47);
+.btn-dark:hover {
+  transition: 0.1s ease-in-out;
+  background-color: rgb(47, 47, 47);
 }
 /* btn light */
-.btn-light{
-    border: 2px solid rgb(35, 34, 34);
+.btn-light {
+  border: 2px solid rgb(35, 34, 34);
 }
-.btn-light:hover{
-    transition: .1s ease-in-out;
-    background-color: rgb(188, 188, 188);
+.btn-light:hover {
+  transition: 0.1s ease-in-out;
+  background-color: rgb(188, 188, 188);
 }
 /* section descripcion */
-.descripcion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    background-color: #141414;
-    height: 15vh;
-  }
-  .descripcion p{
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
-  /* section beneficios */
-.beneficios{
+.descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #141414;
+  height: 15vh;
+}
+.descripcion p {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+/* section beneficios */
+.beneficios {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,31 +157,31 @@ ul.toggle {
   background-size: cover;
 }
 /* article beneficios-list */
-.beneficios-list{
+.beneficios-list {
   width: 90vw;
   display: flex;
   gap: 50px;
 }
 /* beneficios */
-.beneficio img{
+.beneficio img {
   width: 100px;
 }
-.beneficio{
+.beneficio {
   border-radius: 15px;
   padding: 30px 5px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 1);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: var(--col-14);
   color: white;
 }
-.beneficio:hover{
+.beneficio:hover {
   transform: scale(1.1);
 }
-.beneficio i{
+.beneficio i {
   font-size: 100px;
 }
 /* section nosotros */
-.nosotros{
+.nosotros {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -193,17 +193,17 @@ ul.toggle {
   background-size: cover;
   background-position: center;
 }
-.nosotros-list{
+.nosotros-list {
   width: 90vw;
   display: flex;
   gap: 50px;
-  justify-content:center;
+  justify-content: center;
 }
-.nosotros-list img{
+.nosotros-list img {
   width: 100px;
 }
 /* estilos pasos */
-.pasos{
+.pasos {
   border-radius: 15px;
   padding: 30px 5px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 1);
@@ -211,15 +211,15 @@ ul.toggle {
   background-color: var(--col-14);
   color: white;
 }
-.pasos:hover{
+.pasos:hover {
   transform: scale(1.1);
 }
-.pasos i{
+.pasos i {
   font-size: 35px;
 }
 /* Section clientes */
 /* section nosotros */
-.clientes{
+.clientes {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -231,18 +231,18 @@ ul.toggle {
   background-size: cover;
   background-position: center;
 }
-.clientes-list{
+.clientes-list {
   width: 90vw;
   display: flex;
   gap: 50px;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.clientes-list img{
+.clientes-list img {
   width: 100px;
 }
 /* estilos cliente */
-.cliente{
+.cliente {
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 1);
@@ -250,11 +250,11 @@ ul.toggle {
   background-color: var(--col-14);
   color: white;
 }
-.cliente:hover{
+.cliente:hover {
   transform: scale(1.1);
 }
 /* footer */
-footer{
+footer {
   color: white;
   display: flex;
   justify-content: center;
@@ -263,32 +263,31 @@ footer{
   padding: 30px;
   background-color: #141414;
 }
-.nucba-logo{
+.nucba-logo {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 1);
 }
-.nucba-logo img{
+.nucba-logo img {
   width: 250px;
-
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.direcciones{
+.direcciones {
   display: flex;
   gap: 40px;
 }
-.direcciones ul li{
+.direcciones ul li {
   list-style: disc;
 }
-.iconos{
+.iconos {
   display: flex;
   gap: 82px;
 }
-.iconito{
+.iconito {
   font-size: 40px;
   cursor: pointer;
 }
@@ -336,24 +335,23 @@ footer{
     font-size: 25px;
     padding-left: 35px;
   }
-  .beneficios-list{
+  .beneficios-list {
     flex-direction: column;
   }
-  .nosotros-list{
+  .nosotros-list {
     flex-direction: column;
     width: 80vw;
   }
-  footer{
+  footer {
     flex-direction: column;
     text-align: center;
   }
-  .direcciones ul li{
+  .direcciones ul li {
     list-style: none;
   }
-  .footer img{
+  .footer img {
     margin: 10px;
   }
-  
 }
 @media screen and (max-width: 858px) and (orientation: landscape) {
   .nav-list li {
@@ -365,14 +363,14 @@ footer{
   }
 }
 /* media queries sections */
-@media screen and (max-width:575px) {
-    .compania{
-        flex-direction: column-reverse;
-    }
-   .compania img{
+@media screen and (max-width: 575px) {
+  .compania {
+    flex-direction: column-reverse;
+  }
+  .compania img {
     width: 100px;
-   }
-   .compania h1{
+  }
+  .compania h1 {
     font-weight: normal;
-   }
+  }
 }
